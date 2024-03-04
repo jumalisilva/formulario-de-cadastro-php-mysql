@@ -1,32 +1,28 @@
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgb(6, 63, 11), rgb(254, 136, 67));
+    background-image: linear-gradient(to right, rgb(6, 63, 1), rgb(254, 136, 67));
 }
-
-.box {
-    color: black;
+ 
+div{
+    background-color: rgba(238, 235, 235, 0.9);
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 15px;
+    padding: 80px;
     border-radius: 15px;
-    width: 15%;
+    color: blue;
 }
-
-.inputUser {
-    background: none;
+ 
+input{
+    padding: 15px;
+    width: 85%;
     border: none;
-    border-bottom: 1px solid rgb(49, 49, 49);
     outline: none;
-    color: rgb(28, 28, 28);
     font-size: 15px;
-    width: 100%;
-    letter-spacing: 2px;
 }
-
-.btn-novo {
+ 
+.botaonovo{
     background-color: green;
     border: none;
     color: white;
@@ -34,4 +30,9 @@ body {
     padding: 15px;
     width: 100%;
     font-size: 15px;
+}
+ 
+.botaonovo:hover{
+    background-color: rgb(254, 136, 67);
+    cursor: pointer;
 }
